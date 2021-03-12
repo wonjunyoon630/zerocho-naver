@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+#header-search >h1 {
+    width: 221px;
+    height: 50px;
+    display: inline-block;
+    background-size: 440px 410px;
+    background-image: url(./sp_search.png);
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+}
+#header-center{
+    margin: 0 auto;
+    width: 1080px;
+}
+/* px은 사용자 모니터 크기에 따라 px의 기준이 달라진다*/
+#header-search > h1 {
+    width: 280;
+    display: inline-block;
+    vertical-align: middle;
+}
+#header-search > h2 {
+    display:none;
+}
+#header-search fieldset {
+    width: 521px;
+    height: 49px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 12px 0 12px 10px;
+    border: 2px solid #19ce60;/* 핵스표기법 */
+    vertical-align: middle;
+}
+#hearder-search > a {
+    text-decoration: none;
+    
+}
+#header-search fieldset input{
+    border: none;
+    padding:0;
+    outline: none;
+}
+#header-search fieldset button{
+    width: 49px;
+    height: 49px;
+    border: none;
+    padding: 0;
+    background:#19ce60 ;
+}
+#search-image {
+    background-image:url(./sp_search.png) ;
+    width: 22px;
+    height: 22px;
+    background-position: -204px -386px;
+}
+
+/* vertical-align :middle; 은 자식태그 정렬을 맞춰줌 둘다 적용해야함 */
+/* vertical-align은 display가 inline,inline-block 이어야만 적용됩니다*/
+/*
+#header-center h1 {
+    자손 선택자
+}
+*/

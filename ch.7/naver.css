@@ -1,0 +1,448 @@
+
+* {
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.inline-block{
+    display: inline-block;
+}
+.float-left{
+    float:left;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+header{
+    height: 170px;
+}
+#header-search >h1 {
+    width: 221px;
+    height: 50px;
+    display: inline-block;
+    background-size: 440px 410px;
+    background-image: url(./sp_search.png);
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+    position: relative;
+    top:-5px;
+    left: 3px;
+}
+.relative{
+    position: relative;
+}
+.center-align{
+    margin: 0 auto;
+    width: 1080px;
+}
+/* px은 사용자 모니터 크기에 따라 px의 기준이 달라진다*/
+#header-top{
+    float: right;
+    margin-top: 8px;
+}
+#header-search{
+    clear:both;
+    padding-top: 45px;
+}
+#header-top span:first-child{
+    float: left;
+    font-size: 11px;
+    color: #404040;
+}
+#header-top span:nth-child(2){
+    float: left;
+    font-size: 11px;
+    color: #404040;
+    margin-left: 5px;
+}
+#header-top span:nth-child(3){
+    float: left;
+    font-size: 11px;
+    color: #404040;
+    margin-left: 5px;
+}
+
+#header-search > h1 {
+    width: 280;
+    display: inline-block;
+    vertical-align: middle;
+}
+#header-search > h2 {
+    display:none;
+}
+#header-search fieldset {
+    width: 521px;
+    height: 49px;
+    display: inline-block;
+    margin-left: 18px;
+    padding: 12px 0 12px 10px;
+    border: 2px solid #19ce60;/* 핵스표기법 */
+    vertical-align: middle;
+    position: relative;
+}
+
+#hearder-search > a {
+    text-decoration: none;
+}
+.search-keyboard{
+    background-image: url(./sp_search.png);
+    background-size: 440px 410px;
+    position: absolute;
+    top: 50%;
+    left: 84%;
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background-position: -420px -248px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: -6px 0 0 -10px;
+}
+
+.search-history{
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-position: -404px -258px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-size: 440px 410px;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_153a02.png);
+    margin: -2px 0 0 -5px;
+    position: absolute;
+    top: 50%;
+    left: 88%;
+}
+#header-search fieldset input{
+    border: none;
+    padding:0;
+    outline: none;
+    vertical-align: top;
+    width: 444px;
+    height: 24px;
+}
+#header-search fieldset button{
+    width: 49px;
+    height: 49px;
+    border: none;
+    padding: 0;
+    background:#19ce60 ;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+#search-image {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: -204px -386px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-image: url(./sp_search.png);
+    background-size: 440px 410px;
+}
+nav{
+    height: 46px;
+    border-top: 1px solid #f1f3f6;
+    border-bottom: 1px solid #d1d8e4;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding: 16px 0 0 4px;
+}
+#nav-menu li{
+    display: inline-block;
+}
+
+#nav-menu li:first-child span:first-child{
+    width: 25px;
+    background-position: 0 -285px;
+    margin-left: 0;
+}
+#nav-menu li span:first-child {
+    height: 16px;
+    display: inline-block;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+#nav-menu li:nth-child(2) span:first-child{
+    width: 27px;
+    background-position: -279px -52px;
+}
+#nav-menu li:nth-child(3) span:first-child{
+    width: 40px;
+    background-position: -100px -182px;
+}
+#nav-menu li:nth-child(4) span:first-child{
+    width: 40px;
+    background-position: -101px -156px;
+}
+#nav-menu li:nth-child(5) span:first-child{
+    width: 26px;
+    background-position: -279px -156px;
+}
+#nav-menu li:nth-child(6) span:first-child{
+    width: 25px;
+    background-position: -70px -285px;
+}
+#nav-menu li:nth-child(7) span:first-child{
+    width: 35px;
+    background-position: -125px -130px;
+}
+#nav-menu li:nth-child(8) span:first-child{
+    width: 26px;
+    background-position: -279px -208px;
+}
+#nav-menu li:nth-child(9) span:first-child{
+    width: 26px;
+    background-position: -128px -104px;
+}
+#nav-menu li:nth-child(10) span:first-child{
+    width: 26px;
+    background-position: -36px -259px;
+}
+#nav-menu li:nth-child(11) span:first-child{
+    width: 39px;
+    background-position: -151px -156px;
+}
+#nav-menu li:nth-child(12) span:first-child{
+    width: 26px;
+    background-position: -279px -130px;
+}
+#nav-menu li:nth-child(13) span:first-child{
+    width: 26px;
+    background-position: -234px -233px;
+}
+#nav-menu li:nth-child(14) span:first-child{
+    width: 26px;
+    background-position: -72px -259px;
+}
+#nav-menu li:nth-child(15) span:first-child{
+    width: 13px;
+    background-position: -140px -78px;
+}
+#nav-menu li:nth-child(16) span:first-child{
+    width: 26px;
+    background-position: -279px 0;
+}
+#nav-menu li.more:first-child span:first-child {
+    width: 55px;
+    background-position: 0 -104px;
+}
+
+.nav-divider{
+    display: inline-block;
+    margin: 10px 16px 0;
+    width: 1px;
+    height: 14px;
+    background: #efeef3;
+}
+
+#search-ranking {
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    width: 190px;
+    height: 20px;
+}
+#search-ranking ul{
+    display: none;
+    list-style: none;
+    padding: 17px;
+    margin: 0;
+    width: 332px;
+    height: 334px;
+    border: 1px solid #aaa;
+    background: white;
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+#search-ranking:hover ul{
+    display: inline-block;
+}
+
+#rank-number {
+    margin-top: -9px;
+    color: #00ab33;
+    font-size: 16px;
+}
+
+#rank-title{
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+main{
+    background-color: #f2f4f7;
+    display: inline-block;
+    width: 100%;
+}
+#main-centered{
+    padding: 8px 10px;
+    width: 1100px;
+
+}
+#main-first-block{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 8px;
+}
+#main-ad{
+    float: left;
+    width: 740px;
+    height: 120px;
+    background: #555;
+    margin-right: 8px;
+}
+
+#main-login{
+    float: left;
+    width: 332px;
+    height: 120px;
+    vertical-align: top;
+    background:gray;
+    
+}
+#main-second-block{
+    display: inline-block;
+    margin-bottom: 8px;
+    vertical-align: top;
+}
+#main-second-block .float-left:first-child{
+    width: 740px;
+    margin-right: 8px;
+}
+#main-second-block .float-left:last-child{
+    width: 332px;
+    vertical-align: top;
+}
+#main-ytn{
+    display: inline-block;
+    width: 740px;
+    height: 46px;
+    background:gray;
+    margin-bottom: 8px;
+}
+#main-ytn h3,
+#main-ytn ol {
+    display: inline-block;
+}
+
+#main-newsstand{
+    display: inline-block;
+    width: 740px;
+    height: 246px;
+    background:gray;
+}
+#main-newsstand h3{
+    height:45px;
+    border-bottom: 1px solid #ebeef3;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+#main-newsstand ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+#main-newsstand li{
+    float: left;
+    width: 123px;
+    height: 67px;
+    text-align: center;
+}
+#main-newsstand li img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#main-weater{
+    display: inline-block;
+    width: 332px;
+    height: 142px;
+    background:gray;
+    margin-bottom: 8px;
+    vertical-align: top;
+}
+#main-second-ad{
+    display: inline-block;
+    width: 332px;
+    height: 150px;
+    background: #555;
+    vertical-align: top;
+}
+#main-third-block{
+    vertical-align: top;
+}
+#main-category{
+    float: left;
+    width: 740px;
+    height: 837px;
+    background: gray;
+    margin-right: 8px;
+    margin-bottom: 8px; 
+    vertical-align: top;
+}
+#main-shopping{
+    float: left;
+    width: 332px;
+    height: 837px;
+    background: gray;
+    margin-bottom: 8px;
+    vertical-align: top;
+}
+#main-shopping iframe{
+    width: 100%;
+    height: 100%;
+}
+#main-fourth-block{
+    vertical-align: top;
+}
+#main-event{
+    float: left;
+    width: 740px;
+    height: 130px;
+    background: gray;
+    vertical-align: top;
+    margin-right: 8px;
+}
+#main-third-ad{
+    float: left;
+    width: 332px;
+    height: 130px;
+    background: #555;
+}
+#main-third-block,
+#main-fourth-block{
+    display: inline-block;
+    width: 100%;
+}
+/* vertical-align :middle; 은 자식태그 정렬을 맞춰줌 둘다 적용해야함 */
+/* vertical-align은 display가 inline,inline-block 이어야만 적용됩니다*/
+/*
+#header-center h1 {
+    자손 선택자
+}
+*/
+/*
+css 우선순의 
+뒤에 나오는 css가 우선순위가 높다
+!important > inline style attribute > id > 다른 attribute >tag element
+*/
+/*overflow 자식태그를 못감쌀때 auto(스크롤바를 만듬)값을 주면 자식태그를 감싸줌, hidden(자식의 남는 공간을 짤라버린다)*/

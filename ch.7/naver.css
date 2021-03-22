@@ -305,7 +305,7 @@ main{
     float: left;
     width: 740px;
     height: 120px;
-    background: #555;
+    background: white;
     margin-right: 8px;
 }
 
@@ -314,8 +314,37 @@ main{
     width: 332px;
     height: 120px;
     vertical-align: top;
-    background:gray;
-    
+    background:white;
+
+}
+#main-login .login-wrapper{
+    padding: 15px 25px;
+}
+#main-login .login-wrapper a{
+     display: block;    
+}
+#main-login .login-text{
+    color: #888;
+    font-size: 12px;
+    line-height: 14px;
+}
+#main-login .login-image{
+    background: url(./sp_login.png) 0 -47px no-repeat;
+    display: inline-block;
+    width: 280px;
+    height: 37px;
+    margin-top: 12px;
+}
+#main-login .login-signup{
+    float: right;
+    font-size: 12px;
+    line-height: 38px;
+    color: #666 ;
+    text-decoration: none;
+
+}
+#main-login .login-signup:hover{
+    text-decoration: underline;
 }
 #main-second-block{
     display: inline-block;
@@ -334,7 +363,7 @@ main{
     display: inline-block;
     width: 740px;
     height: 46px;
-    background:gray;
+    background:white;
     margin-bottom: 8px;
 }
 #main-ytn h3,
@@ -346,7 +375,7 @@ main{
     display: inline-block;
     width: 740px;
     height: 246px;
-    background:gray;
+    background:white;
 }
 #main-newsstand h3{
     height:45px;
@@ -376,7 +405,7 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     width: 332px;
     height: 142px;
-    background:gray;
+    background:white;
     margin-bottom: 8px;
     vertical-align: top;
 }
@@ -384,7 +413,7 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     width: 332px;
     height: 150px;
-    background: #555;
+    background: white;
     vertical-align: top;
 }
 #main-third-block{
@@ -394,7 +423,7 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     width: 740px;
     height: 837px;
-    background: gray;
+    background: white;
     margin-right: 8px;
     margin-bottom: 8px; 
     vertical-align: top;
@@ -403,7 +432,7 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     width: 332px;
     height: 837px;
-    background: gray;
+    background: white;
     margin-bottom: 8px;
     vertical-align: top;
 }
@@ -418,7 +447,7 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     width: 740px;
     height: 130px;
-    background: gray;
+    background: white;
     vertical-align: top;
     margin-right: 8px;
 }
@@ -426,7 +455,7 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     width: 332px;
     height: 130px;
-    background: #555;
+    background: white;
 }
 #main-third-block,
 #main-fourth-block{
